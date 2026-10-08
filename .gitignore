@@ -2,7 +2,10 @@
 .reentry/
 .vscode/
 **/.vscode/
+.metadata/
+.recommenders/
 
 # Build artifacts & binaries
+bin/
 *.class
 *.jar
