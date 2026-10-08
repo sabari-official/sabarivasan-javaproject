@@ -30,7 +30,7 @@ The application connects to a local MySQL Database:
 - **Database Name:** `chettinad`
 - **Table Name:** `student`
 - **User:** `root`
-- **Password:** `Localhost@123`
+- **Password:** `your-password`
 
 ### MySQL Schema
 ```sql
@@ -89,8 +89,8 @@ A full graphical desktop application built with Java Swing:
 1. **[`LoginForm.java`](level4/LoginForm.java)**:
    - Login gate with masked password entry.
    - **Default Credentials:**
-     - **Username:** `sabari`
-     - **Password:** `sabari@1212`
+     - **Username:** `username`
+     - **Password:** `password`
    - Upon successful login, the login window closes and automatically opens the student management dashboard.
 
 2. **[`SimpleGui.java`](level4/SimpleGui.java)**:
@@ -107,23 +107,6 @@ A full graphical desktop application built with Java Swing:
 2. Right-click **`LoginForm.java`** &rarr; **Run As** &rarr; **Java Application**.
 3. The GUI window will open. Enter credentials and click **Login/SignIn** to access the dashboard.
 *(You can also right-click `SimpleGui.java` &rarr; **Run As** &rarr; **Java Application** to open the student form directly).*
-
----
-
-## 📂 Project Structure
-
-```text
-├── level3/                  # Package: level3 (Console JDBC)
-│   ├── Database1.java       # Insert with duplicate check
-│   ├── Database2.java       # Direct insert
-│   ├── Database3.java       # Delete by regno
-│   └── Database4.java       # Update by regno
-├── level4/                  # Package: level4 (Java Swing GUI)
-│   ├── LoginForm.java       # Swing authentication screen
-│   └── SimpleGui.java       # Swing student CRUD dashboard
-├── .gitignore               # Excludes Eclipse metadata (.metadata), binaries (*.class, *.jar)
-└── README.md                # Project documentation
-```
 
 ---
 
