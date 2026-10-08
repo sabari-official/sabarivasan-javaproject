@@ -1,0 +1,8 @@
+# IDE & System files
+.reentry/
+.vscode/
+**/.vscode/
+
+# Build artifacts & binaries
+*.class
+*.jar
